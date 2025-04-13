@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+#results div {
+  margin-bottom: 10px;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.invalid {
+  color: red;
+}
+
+.valid {
+  color: green;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
